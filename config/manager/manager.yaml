@@ -27,7 +27,7 @@ spec:
         - /manager
         args:
         - --enable-leader-election
-        image: ryantking/freeipa-issuer-controller:latest
+        image: quay.io/flipsidecrypto/freeipa-issuer-controller:latest
         name: manager
         resources:
           limits:
